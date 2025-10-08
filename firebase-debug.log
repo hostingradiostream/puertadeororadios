@@ -1,0 +1,215 @@
+[debug] [2025-10-07T22:31:43.851Z] ----------------------------------------------------------------------
+[debug] [2025-10-07T22:31:43.855Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-10-07T22:31:43.855Z] CLI Version:   14.19.0
+[debug] [2025-10-07T22:31:43.855Z] Platform:      win32
+[debug] [2025-10-07T22:31:43.856Z] Node Version:  v22.20.0
+[debug] [2025-10-07T22:31:43.856Z] Time:          Tue Oct 07 2025 17:31:43 GMT-0500 (hora estándar de Colombia)
+[debug] [2025-10-07T22:31:43.856Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DJ PETER
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2025-10-07T22:32:39.441Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-07T22:32:39.441Z] > authorizing via signed-in user (hostingradiostreamsonido@gmail.com)
+[debug] [2025-10-07T22:32:39.443Z] Checked if tokens are valid: true, expires at: 1759879858455
+[debug] [2025-10-07T22:32:39.443Z] Checked if tokens are valid: true, expires at: 1759879858455
+[debug] [2025-10-07T22:32:39.444Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 [none]
+[debug] [2025-10-07T22:32:39.928Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 403
+[debug] [2025-10-07T22:32:39.929Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-10-07T22:32:39.929Z] Request to https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 had HTTP Error: 403, The caller does not have permission
+[debug] [2025-10-07T22:32:40.117Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project rumberastereo-7da97. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-10-07T22:33:02.198Z] ----------------------------------------------------------------------
+[debug] [2025-10-07T22:33:02.201Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-10-07T22:33:02.201Z] CLI Version:   14.19.0
+[debug] [2025-10-07T22:33:02.201Z] Platform:      win32
+[debug] [2025-10-07T22:33:02.202Z] Node Version:  v22.20.0
+[debug] [2025-10-07T22:33:02.202Z] Time:          Tue Oct 07 2025 17:33:02 GMT-0500 (hora estándar de Colombia)
+[debug] [2025-10-07T22:33:02.202Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DJ PETER
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2025-10-07T22:33:10.577Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-07T22:33:10.577Z] > authorizing via signed-in user (hostingradiostreamsonido@gmail.com)
+[debug] [2025-10-07T22:33:10.578Z] Checked if tokens are valid: true, expires at: 1759879858455
+[debug] [2025-10-07T22:33:10.578Z] Checked if tokens are valid: true, expires at: 1759879858455
+[debug] [2025-10-07T22:33:10.580Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 [none]
+[debug] [2025-10-07T22:33:11.033Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 403
+[debug] [2025-10-07T22:33:11.033Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-10-07T22:33:11.035Z] Request to https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 had HTTP Error: 403, The caller does not have permission
+[debug] [2025-10-07T22:33:11.234Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project rumberastereo-7da97. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-10-07T22:33:17.732Z] ----------------------------------------------------------------------
+[debug] [2025-10-07T22:33:17.735Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-10-07T22:33:17.736Z] CLI Version:   14.19.0
+[debug] [2025-10-07T22:33:17.736Z] Platform:      win32
+[debug] [2025-10-07T22:33:17.736Z] Node Version:  v22.20.0
+[debug] [2025-10-07T22:33:17.737Z] Time:          Tue Oct 07 2025 17:33:17 GMT-0500 (hora estándar de Colombia)
+[debug] [2025-10-07T22:33:17.737Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DJ PETER
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2025-10-07T22:33:24.369Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-07T22:33:24.369Z] > authorizing via signed-in user (hostingradiostreamsonido@gmail.com)
+[debug] [2025-10-07T22:33:24.371Z] Checked if tokens are valid: true, expires at: 1759879858455
+[debug] [2025-10-07T22:33:24.371Z] Checked if tokens are valid: true, expires at: 1759879858455
+[debug] [2025-10-07T22:33:24.372Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 [none]
+[debug] [2025-10-07T22:33:24.816Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 403
+[debug] [2025-10-07T22:33:24.817Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-10-07T22:33:24.818Z] Request to https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 had HTTP Error: 403, The caller does not have permission
+[debug] [2025-10-07T22:33:25.004Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project rumberastereo-7da97. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-10-07T22:33:38.794Z] ----------------------------------------------------------------------
+[debug] [2025-10-07T22:33:38.799Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-10-07T22:33:38.799Z] CLI Version:   14.19.0
+[debug] [2025-10-07T22:33:38.799Z] Platform:      win32
+[debug] [2025-10-07T22:33:38.800Z] Node Version:  v22.20.0
+[debug] [2025-10-07T22:33:38.800Z] Time:          Tue Oct 07 2025 17:33:38 GMT-0500 (hora estándar de Colombia)
+[debug] [2025-10-07T22:33:38.800Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DJ PETER
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2025-10-07T22:33:49.819Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-07T22:33:49.820Z] > authorizing via signed-in user (hostingradiostreamsonido@gmail.com)
+[debug] [2025-10-07T22:33:49.822Z] Checked if tokens are valid: true, expires at: 1759879858455
+[debug] [2025-10-07T22:33:49.822Z] Checked if tokens are valid: true, expires at: 1759879858455
+[debug] [2025-10-07T22:33:49.824Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 [none]
+[debug] [2025-10-07T22:33:50.298Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 403
+[debug] [2025-10-07T22:33:50.299Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-10-07T22:33:50.300Z] Request to https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 had HTTP Error: 403, The caller does not have permission
+[debug] [2025-10-07T22:33:50.491Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project rumberastereo-7da97. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-10-07T22:33:59.878Z] ----------------------------------------------------------------------
+[debug] [2025-10-07T22:33:59.881Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-10-07T22:33:59.882Z] CLI Version:   14.19.0
+[debug] [2025-10-07T22:33:59.882Z] Platform:      win32
+[debug] [2025-10-07T22:33:59.882Z] Node Version:  v22.20.0
+[debug] [2025-10-07T22:33:59.882Z] Time:          Tue Oct 07 2025 17:33:59 GMT-0500 (hora estándar de Colombia)
+[debug] [2025-10-07T22:33:59.882Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DJ PETER
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2025-10-07T22:34:09.586Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-07T22:34:09.586Z] > authorizing via signed-in user (hostingradiostreamsonido@gmail.com)
+[debug] [2025-10-07T22:34:09.587Z] Checked if tokens are valid: true, expires at: 1759879858455
+[debug] [2025-10-07T22:34:09.588Z] Checked if tokens are valid: true, expires at: 1759879858455
+[debug] [2025-10-07T22:34:09.589Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 [none]
+[debug] [2025-10-07T22:34:10.109Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 403
+[debug] [2025-10-07T22:34:10.110Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-10-07T22:34:10.111Z] Request to https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 had HTTP Error: 403, The caller does not have permission
+[debug] [2025-10-07T22:34:10.310Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/rumberastereo-7da97 had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\DJ PETER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project rumberastereo-7da97. Please make sure the project exists and your account has permission to access it.

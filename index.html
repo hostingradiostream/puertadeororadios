@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="theme-color" content="#08298a">
+<title>PuertadeOroRadio La Numero 1 en Salsa y Sabor</title>
+<link href='"app-logo-player.jpg' rel='icon' type='image/x-icon'/>
+<link href="style.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="lunaradio-animado.js"></script>
+<style>
+html,body{font-family:"Open Sans",sans-serif;height:100%;margin:0;display:flex;flex-direction:column;color:#272829;}
+</style>
+</head>
+
+<style>
+        body {   
+          z-index: 1;
+          background: linear-gradient(-45deg, red, blue, purple, red, yellow, grey, black, green);
+          background-size: 300% 300%;
+          background-image: url("app-fondo-app.jpg"); no-repeat center center fixed; top no-repeat ;
+background-size: cover;
+
+          width: 100%;
+       
+
+    </style>
+
+
+
+<body>
+
+
+<!-- LunaRadio Plugin -->
+<script src="lunaradio.min.js"></script>
+
+<div id="player"></div>
+<script>
+$("#player").lunaradio({
+userinterface: "big", 
+backgroundcolor: "",
+fontname: "Saira Condensed", 
+googlefont: "Saira+Condensed:wght@100", 
+fontratio: "0.4", 
+fontcolor: "#ffffff",
+hightlightcolor: "#feca00",  //Color Volumen
+radioname: "SONANDO:", 
+scroll: "true", 
+scrollradioname: "left",
+scrolltitle: "left",  // cambia a "left" para que el título se mueva y sea visible
+coverimage: "app-logo-player.jpg",
+onlycoverimage: "false",
+coverstyle: "animated",
+usevisualizer: "real", 
+visualizertype: "9", 
+multicolorvisualizer: "true",
+color1: "#ffec00",
+color2: "#2645d5",
+color3: "#ffd743",
+color4: "ffd743",
+visualizeropacity: "0.6",
+visualizerghost: "0.8",
+itunestoken: "1000lIPN", 
+metadatatechnic: "fallback",
+ownmetadataurl: "",  // si tienes un backend que devuelve metadata, puedes usarlo aquí
+streamurl: "https://sc10.conectarhosting.com/proxy/puertadeororadio",
+streamtype: "shoutcast2", //soporta: zeno, icecast2, shoutcast2
+shoutcastpath: "/;?type=http&nocache=107036",
+shoutcastid: "1", 
+metadatainterval: "15000", 
+volume: "80",
+debug: "false",
+uselocalstorage: "true",
+autoplay: "true",
+displayliveicon: "true",
+displayvisualizericon: "true",
+usestreamcorsproxy: "false",
+corsproxy: ""
+});
+</script>
+
+
+<script>
+$(".mobile-nav-toggle").click(function(){
+$("body").toggleClass("mobile-nav-active");
+$(".mobile-nav-toggle i").toggleClass("fa-bars fa-times");
+});
+</script>
+</body>
+</html>
